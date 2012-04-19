@@ -1,0 +1,712 @@
+﻿<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo Benq</title>
+    <script id="microloader" type="text/javascript" src="sdk/microloader/development.js"></script>
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="css/sencha-touch-benq.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <!-- Content used for each overlay -->
+  <div style="display: none;" id="content">
+        <div id="lipsum">
+           
+        </div>
+    </div>
+	<div id="contenedor1" style="display: none;" >
+    <section id="columna_2">
+            <img src="imgs/ipad_1024/mapa.png" alt="Mapa Latinoamérica">
+    </section>
+    <section id="columna_1">
+            <header>
+                <img src="imgs/ipad_1024/logo.png" alt="Logotipo Benq" />
+            </header>
+            <img src="imgs/ipad_1024/flecha.png" alt="Flecha">
+            <label>¿Estás Registrado?</label><br>
+            <img src="imgs/ipad_1024/flecha.png"  alt="Flecha">
+            <label>¿Eres Distribuidor o Usuario Final? </label><br>
+            <img src="imgs/ipad_1024/flecha.png"  alt="Flecha">
+            <label>Selecciona tu Región</label>
+            <div class="clear"></div>
+    </section>
+	<div class="clear"></div>
+</div>
+<div id="contenedor_2" style="display: none;" >
+            <header>
+                    	<img src="imgs/ipad_1024/logo_interior.png" alt="Logo Benq"> 
+                        <h1>Registro</h1>
+                        <div class="clear"></div>  
+            </header>
+            <section class="registro">
+            		<div class="titulo"><h2>Distribuidor </h2></div>
+            		<section class="formulario">
+                    		<fieldset id="razon_social">	
+                                <label>Razón Social<input name="" type="text"></label><br>
+                                <label class="anotacion">Cargar Logo<br><span>(Que no exceda 1MB)</span>
+                                        <input name="examinar" type="button" value="Examinar" id="examinar" >
+                                </label>
+								<input name="" type="text">
+                            </fieldset>
+                            <fieldset>
+                            	<legend>Dirección </legend>
+                                <label>Calle<input name="" type="text"/></label>
+                                <label>Número<input name="" type="text"/></label><br>
+                                <label>Colonia<input name="" type="text"/></label>
+                                <label>Delegación o Municipio<input name="" type="text"/></label><br>
+                                <label>C.P.<input name="" type="text"/></label>
+                                <label>Estado<input name="" type="text"/></label>
+                                <label>País *<select name="pais"></select></label><br>
+                                <label>Mayorista al que le compra<input name="" type="text"/></label><br>
+                                <label>Nombre Contacto<input name="" type="text"/></label><br>
+                                <label>Email *<input name="" type="text"/><input name="" type="button" value="Enviar"></label><br>
+                            </fieldset>
+                            <p>* Campos obligatorios</p>
+                            <div class="clear"></div>  
+                    </section>
+                    <div class="clear"></div>  
+            </section>
+   			<div class="clear"></div>
+</div>
+<div id="contenedor_3" style="display: none;" >
+            <header>
+                    	<img src="imgs/ipad_1024/logo_interior.png" alt="Logo Benq"> 
+                        <h1>Registro</h1>
+                        <div class="clear"></div>  
+            </header>
+            <section class="registro">
+            		<div class="titulo"><h2>Distribuidor</h2></div>
+            		<section class="formulario">
+                            <fieldset>
+                            	<label>Nombre<input name="" type="text"/></label><br>
+                                <label>Apellido paterno<input name="" type="text"/></label><br>
+                                <label>Apellido materno<input name="" type="text"/></label><br>
+                                <label>País<select name="pais"></select></label>
+                                <label>Estado<input name="" type="text"/></label><br>
+                                <label>Email *<input name="" type="text"/><input name="" type="button" value="Enviar"></label><br>
+                            </fieldset>
+                            <p>* Campos obligatorios / Campos Obrigatórios</p>
+                            <div class="clear"></div>  
+                    </section>
+                    <div class="clear"></div>  
+            </section>
+   			<div class="clear"></div>
+</div>
+<!--Portada de secciones-->
+<div id="contenedor_4" style="display: none;" >
+			<header>
+                    	<img src="imgs/ipad_1024/logo_interior_portada_catalogo.png" alt="Logo Benq"> 
+                        <h1>Bringing Enjoyment'N Quality to Life</h1>
+                        <div class="clear"></div>
+            </header>
+            <section id="menu_portada">
+            		<ul>
+                    	<li>
+                            <a href="#"><img src="imgs/ipad_1024/catalogo_productos.png" alt="Catálogo de Productos"></a>
+                            <div><a href="#">Catálogo de Productos</a></div>
+                        </li>
+                        <li>
+                        		<a href="#"><img src="imgs/ipad_1024/herramienta.png" alt="Herramientas / Ferramentas"></a>
+                        		<div><a href="#">Herramientas</a></div>
+                        </li>
+                        <li>
+                                <a href="#"><img src="imgs/ipad_1024/noticias.png" alt="Noticias"></a>
+                                 <div><a href="#">Noticias</a></div>
+                        </li>
+                        <li>
+                                 <a href="#"><img src="imgs/ipad_1024/glosario.png" alt="Noticias"></a>
+                                <div><a href="#">Glosario</a></div>
+                        </li>
+                        <li>
+                               <a href="#"><img src="imgs/ipad_1024/tips.png" alt="Tips"></a>
+                               <div><a href="#">Tips</a></div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+            </section>
+</div>
+<!--Menú de categorías de productos-->
+<div id="contenedor_5" style="display: none;" >
+  		<header>
+                 <img src="imgs/ipad_1024/logo_interior.png" alt="Logo Benq"> 
+                 <h1>Catálogo de Productos</h1>
+                 <div class="clear"></div>  
+        </header>
+        <section class="contenedor_menu_productos">
+                  <div><a href="#">Proyectores DLP®<br><img src="imgs/ipad_1024/proyectores.png" alt="Proyectores"></a></div>
+                  <div><a href="#">Monitores LCD LED<br><img src="imgs/ipad_1024/monitores.png" alt="Monitores"></a></div>
+                  <div><a href="#">Cámaras Digitales<br><img src="imgs/ipad_1024/camaras_fotograficas.png" alt="Cámaras digitales"></a></div>
+                  <div class="lista_inferior"><a href="#">Cámaras de Video<br><img src="imgs/ipad_1024/camaras_video.png" alt="Proyectores"></a></div>
+          		<div><a href="#">Productos <span class="eco">ECO</span><br><img src="imgs/ipad_1024/productos_eco.png" alt="Proyectores"></a></div>
+  		</section>
+        <div class="clear"></div>
+</div>
+<!--<div id="contenedor_5" style="display: none;" >
+    10
+</div>-->
+<div id="contenedor_6" style="display: none;" >
+  		<header>
+                 <img src="imgs/ipad_1024/logo_interior.png" alt="Logo Benq"> 
+                 <h1>Catálogo de Productos</h1>
+                 <div class="clear"></div>  
+        </header>
+        <section class="contenedor_menu_productos">
+                  <div><a href="#">Proyectores DLP®<br><img src="imgs/ipad_1024/proyectores.png" alt="Proyectores"></a></div>
+                  <div><a href="#">Monitores LCD LED<br><img src="imgs/ipad_1024/monitores.png" alt="Monitores"></a></div>
+                  <div><a href="#">Cámaras Digitales<br><img src="imgs/ipad_1024/camaras_fotograficas.png" alt="Cámaras digitales"></a></div>
+  		</section>
+        <div class="clear"></div>
+</div>
+<div id="contenedor_7" style="display: none;" >
+  <header>
+                 <img src="imgs/ipad_1024/logo_interior.png" alt="Logo Benq"> 
+                 <h1>Ficha técnica</h1>
+                 <div class="clear"></div>  
+        </header>
+        <section id="imagen_especificaciones">
+	  		  <img src="imgs/Template_SpecSheet_Esp.jpg" alt="especificaciones técnicas">
+        </section>
+</div>
+<div id="contenedor_8" style="display: none;" >
+    8
+</div>
+<!--Cabeza de especificaciones técnicas-->
+<div id="resultado_9" style="display: none;">
+        <h1>Catálogo de Productos</h1>
+        <div class="clear"></div>  
+</div>
+<!--Menú lateral de especificaciones técnicas-->
+<div id="menu_9" style="display: none;">
+			<div id="header_menu_1"><img src="imgs/ipad_1024/logo_interior.png" alt="Logo Benq"> </div>
+            <table width="100%" id="columna_especificaciones">
+              <tr class="categoria_productos">
+                <td><h1>Proyectores DLP® <span>SVGA<br> Brillo0-2999<br> Tiro Normal</span></h1></td>
+              </tr>
+              <tr class="cebra">
+                <td>Tecnología</td>
+              </tr>
+              <tr>
+                <td>Color</td>
+              </tr>
+              <tr class="cebra">
+                <td>Lámpara</td>
+              </tr>
+              <tr>
+                <td>Lúmenes</td>
+              </tr>
+              <tr class="cebra">
+                <td>Contraste</td>
+              </tr>
+              <tr>
+                    <td>Colores</td>
+              </tr>
+              <tr class="cebra">
+                    <td>Corrección trapezoidal</td>
+              </tr>
+              <tr>
+                    <td>Tamaño de la imagen</td>
+              </tr>
+              <tr class="cebra">
+                    <td>Zoom</td>
+              </tr>
+              <tr>
+                    <td>Peso</td>
+              </tr>
+              <tr class="cebra tres_lineas">
+                    <td>Entradas</td>
+              </tr>
+              <tr class="tres_lineas">
+                    <td>Salidas</td>
+              </tr>
+              <tr class="cebra">
+                    <td>Otros</td>
+              </tr>
+            </table>
+</div>
+<!--Especificaciones técnicas-->
+<div id="contenedor_9" style="display: none;" >
+         <section id="especificaciones_tecnicas">
+                <table id="tabla_productos">
+                      <tr class="primera_fila">
+                            <td><img src="imgs/ipad_1024/proyector_1.jpg" alt="Proyector"><br>MS500+</td>
+                            <td><img src="imgs/ipad_1024/proyector_1.jpg" alt="Proyector"><br>MS500+</td>
+                            <td><img src="imgs/ipad_1024/proyector_1.jpg" alt="Proyector"><br>MS500+</td>
+                            <td><img src="imgs/ipad_1024/proyector_1.jpg" alt="Proyector"><br>MS500+</td>
+                            <td><img src="imgs/ipad_1024/proyector_1.jpg" alt="Proyector"><br>MS500+</td>
+                            <td><img src="imgs/ipad_1024/proyector_1.jpg" alt="Proyector"><br>MS500+</td>
+                      </tr>
+                      <tr class="cebra">
+                        	<td>DLP®</td>
+                            <td>DLP®</td>
+                            <td>DLP®</td>
+                            <td>DLP®</td>
+                            <td>DLP®</td>
+                            <td>DLP®</td>
+                      </tr>
+                      <tr>
+                        	<td>SVGA</td>
+                            <td>SVGA</td>
+                            <td>SVGA</td>
+                            <td>SVGA</td>
+                            <td>SVGA</td>
+                            <td>SVGA</td>
+                      </tr>
+                      <tr class="cebra">
+                        	<td>6,000 Hrs. Eco</td>
+                            <td>6,000 Hrs. Eco</td>
+                            <td>6,000 Hrs. Eco</td>
+                            <td>6,000 Hrs. Eco</td>
+                            <td>6,000 Hrs. Eco</td>
+                            <td>6,000 Hrs. Eco</td>
+                      </tr>
+                      <tr>
+                        <td>2,700</td>
+                         <td>2,700</td>
+                         <td>2,700</td>
+                         <td>2,700</td>
+                         <td>2,700</td>
+                         <td>2,700</td>
+                      </tr>
+                      <tr class="cebra">
+                        	<td>4,000:1</td>
+                            <td>4,000:1</td>
+                            <td>4,000:1</td>
+                            <td>4,000:1</td>
+                            <td>4,000:1</td>
+                            <td>4,000:1</td>
+                      </tr>
+                      <tr>
+                        	<td>1.07 billones</td>
+                            <td>1.07 billones</td>
+                            <td>1.07 billones</td>
+                            <td>1.07 billones</td>
+                            <td>1.07 billones</td>
+                            <td>1.07 billones</td>
+                      </tr>
+                      <tr class="cebra">
+                       		<td>ID, Vertical +40°</td>
+                            <td>ID, Vertical +40°</td>
+                            <td>ID, Vertical +40°</td>
+                            <td>ID, Vertical +40°</td>
+                            <td>ID, Vertical +40°</td>
+                            <td>ID, Vertical +40°</td>
+                      </tr>
+                      <tr>
+                       		<td>24" hasta 300"</td>
+                            <td>24" hasta 300"</td>
+                            <td>24" hasta 300"</td>
+                            <td>24" hasta 300"</td>
+                            <td>24" hasta 300"</td>
+                            <td>24" hasta 300"</td>
+                      </tr>
+                      <tr class="cebra">
+                        	<td>1.1:1 / Digital 2x</td>
+                            <td>1.1:1 / Digital 2x</td>
+                            <td>1.1:1 / Digital 2x</td>
+                            <td>1.1:1 / Digital 2x</td>
+                            <td>1.1:1 / Digital 2x</td>
+                            <td>1.1:1 / Digital 2x</td>
+                      </tr>
+                      <tr>
+                        	<td>2.5 kg</td>
+                            <td>2.5 kg</td>
+                            <td>2.5 kg</td>
+                            <td>2.5 kg</td>
+                            <td>2.5 kg</td>
+                            <td>2.5 kg</td>
+                      </tr>
+                     	<tr class="cebra tres_lineas">
+                        	<td>D-Sub,  Video Compuesto RCAx1, S-Video, Audio Mini Jackx1, USB Mini Bx1, RS232</td>
+                            <td>D-Sub,  Video Compuesto RCAx1, S-Video, Audio Mini Jackx1, USB Mini Bx1, RS232</td>
+                            <td>D-Sub,  Video Compuesto RCAx1, S-Video, Audio Mini Jackx1, USB Mini Bx1, RS232</td>
+                            <td>D-Sub,  Video Compuesto RCAx1, S-Video, Audio Mini Jackx1, USB Mini Bx1, RS232</td>
+                            <td>D-Sub,  Video Compuesto RCAx1, S-Video, Audio Mini Jackx1, USB Mini Bx1, RS232</td>
+                            <td>D-Sub,  Video Compuesto RCAx1, S-Video, Audio Mini Jackx1, USB Mini Bx1, RS232</td>
+                      </tr>
+                      <tr class="tres_lineas">
+                        	<td>D-Sub, Audio Mini Jackx1, Bocinas 2Wx1, 3D Ready, Closed Captioning, HDTV </td>
+                        	<td>D-Sub, Audio Mini Jackx1, Bocinas 2Wx1, 3D Ready, Closed Captioning, HDTV </td>
+                        	<td>D-Sub, Audio Mini Jackx1, Bocinas 2Wx1, 3D Ready, Closed Captioning, HDTV </td>
+                            <td>D-Sub, Audio Mini Jackx1, Bocinas 2Wx1, 3D Ready, Closed Captioning, HDTV </td>
+                            <td>D-Sub, Audio Mini Jackx1, Bocinas 2Wx1, 3D Ready, Closed Captioning, HDTV </td>
+                            <td>D-Sub, Audio Mini Jackx1, Bocinas 2Wx1, 3D Ready, Closed Captioning, HDTV </td>
+                      </tr>
+                      <tr class="cebra">
+                        	<td>Compatible </td>
+                            <td>Compatible </td>
+                            <td>Compatible </td>
+                            <td>Compatible </td>
+                            <td>Compatible </td>
+                            <td>Compatible </td>
+                      </tr>
+                </table>
+             <div class="clear"></div>
+          </section>
+</div>
+<div id="contenedor_10" style="display: none;" >
+    10
+</div>
+
+<!--Glosario-->
+<!--<div id="contenedor_5_glosario" style="display: none;" >
+		<header>
+                    <img src="imgs/ipad_1024/logo_interior.png" alt="Logo Benq"> 
+                    <h1>Herramientas</h1>
+                    <div class="clear"></div>  
+            </header>
+            <section id="glosario">
+            		<div id="titulo"><h2>Glosario</h2></div>
+                    <section id="contenedor_glosario">
+                    	 	<div class="clear"></div>  
+                    </section>
+			</section>
+</div>-->
+<!--Envío de catálogo-->
+<!--<div id="contenedor_6_envio_catalogo" style="display: none;" >
+			<header>
+                    	<img src="imgs/ipad_1024/logo_interior.png" alt="Logo Benq"> 
+                        <h1>Catálogo de Productos</h1>
+                        <div class="clear"></div>  
+            </header>
+            <section id="envio_catalogo">
+            		<div id="titulo"><h2>Envío de Catálogo</h2></div>
+                    <section id="contenedor_envio_catalogo">
+               		  	<div id="formulario_envio_catalogo">
+                        		<fieldset id="cargar_logo">	
+                                		<label class="anotacion">Correos electrónicos</span><br><br>
+                                            <input name="" type="text"><br>
+                                            <input name="" type="text"><br>
+                                            <input name="" type="text">
+                                            <input name="examinar" type="button" value="Examinar" id="examinar" >
+                                		</label>
+                           		</fieldset>
+                        </div>
+                       	<div id="ilustracion_envio_catalogo">
+           		      			<img src="imgs/ipad_1024/fondo_envio_formulario.png" alt="Ilustración envío de formulario">
+                        </div>
+                    	<div class="clear"></div>  
+                    </section>
+			</section>
+	</div>
+</div>-->
+
+<!--Menú de selección de productos por sus características técnicas-->
+<!--<div id="contenedor_8_menu_seleccion" style="display: none;" >
+         <header>
+                    <img src="imgs/ipad_1024/logo_interior.png" alt="Logo Benq"> 
+                    <h1>Herramientas</h1>
+                    <div class="clear"></div>  
+         </header>
+         <section id="catalogo_camaras_digitales">
+            		<div id="titulo"><h2>Cámaras Digitales</h2></div>
+                    <section id="contenedor_catalogo">
+                    	 	<table id="caracteristicas">
+                                  <tr class="etiqueta_caracteristica">
+                                        <td>Modelo</td>
+                                  </tr>
+                                  <tr>
+                                    	<td>
+                                    		<select name="Modelo">
+                                                            <option>Modelo 1</option>
+                                                            <option>Modelo 2</option>
+                                            </select>
+                                      	 </td>
+                                  </tr>
+                                  <tr class="etiqueta_caracteristica">
+                                    	<td>Resolución</td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                    		<select name="Modelo">
+                                                            <option>Modelo 1</option>
+                                                            <option>Modelo 2</option>
+                                            </select>
+                                     </td>
+                                  </tr>
+                                  <tr class="etiqueta_caracteristica">
+                                    	<td>Tipo</td>
+                                  </tr>
+                                  <tr>
+                                    	<td>
+                                        	<select name="Modelo">
+                                                            <option>Modelo 1</option>
+                                                            <option>Modelo 2</option>
+                                            </select>
+                                       	</td>
+                                  </tr>
+                                  <tr class="etiqueta_caracteristica">
+                                    	<td>Video Cámaras</td>
+                                  </tr>
+                                  <tr>
+                                    	<td>
+                                    		<select name="Modelo">
+                                                            <option>Modelo 1</option>
+                                                            <option>Modelo 2</option>
+                                            </select>
+                                    	</td>
+                                  </tr>
+                    		</table>
+                    	<div id="ilustracion_productos"><img src="imgs/ipad_1024/fondo_catalogo_camaras.jpg" alt="Cámaras Benq"></div>
+                   <div class="clear"></div>  
+              </section>
+		</section>
+</div>-->
+
+<!--Calculador de distancia-->
+<!--<div id="contenedor_9_calculador" style="display: none;" >
+		<header>
+                    <img src="imgs/ipad_1024/logo_interior.png" alt="Logo Benq"> 
+                    <h1>Herramientas</h1>
+                    <div class="clear"></div>  
+         </header>
+         <section id="calculador">
+            		<div id="titulo"><h2>Calculador de distancia</h2></div>
+                    <section id="contenedor_calculador">
+                    		<div id="imagen_calculador"><img src="imgs/ipad_1024/fondo_calculador.png" alt="Imagen sala"></div>
+                            <div id="texto_calculador">
+                            		<p>¿Cómo realizar el cálculo de distancia entre la pantalla de proyección y el lugar donde quieres colocar el proyector, si no tienes a la mano un flexómetro? Fácil, completa los datos de abajo y te decimos en centímetros, qué distancia hay.</p>
+									<table width="100%" border="0">
+                                          <tr>
+                                            <td>Tamaño de tu zapato en centímetros</td>
+                                          </tr>
+                                          <tr>
+                                            <td><input name="numero_zapato" type="text"></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Número de zapatos que cabrían en la distancia que quieres medir</td>
+                                          </tr>
+                                          <tr>
+                                            <td><input name="numero_zapato" type="text"></td>
+                                          </tr>
+                                          <tr>
+                                            <td>&nbsp;</td>
+                                          </tr>
+                                        </table>
+									<label>
+                                    	Tamaño de tu zapato en centímetros<br>
+                                    	<input name="numero_zapato" type="text">
+                                    </label>
+                                    <br>
+                                    <label>
+                                    		Número de zapatos que cabrían en la distancia que quieres medir<br>
+                                    		<input name="numero_zapato" type="text">
+                                    </label>
+                                    <br>
+                                        <input name="examinar" type="button" value="Calcular" id="examinar" >
+                            </div>
+							<div class="clear"></div>  
+                    </section>
+		</section>
+</div>-->
+
+<footer id="pie_1" style="display: none;" >
+        <div id="pie_contenedor">
+                    <div id="benq_sitios_latam">
+                            <a href="javascript:next();">Latam.BenQ.com</a> /<a href="javascript:prev();"> BenQ.com.mx</a> / <a href="#" target="_blank">BenQ.com.br</a>
+                    </div>
+                    <div id="redes">
+                            <div id="twitter">
+                                <img src="imgs/twitter.png" alt="Twitter logo">	
+                            </div>
+                            <div id="facebok">
+                                <img src="imgs/facebook.png" alt="Facebook logo">	
+                            </div>
+                    </div>
+                    <div id="siguenos">
+                            <p>Síguenos en / Siga nos no:</p>
+                            <a href="#">BenQ Latinamérica</a> / <a href="#">BenQ_Mexico</a> / <a href="#">BenQ_Brasil</a>
+                    </div>
+                    <div id="copyright">
+                            <p>Copyright © 2012 BenQ </p>
+                    </div>  
+                    <div class="clear"></div>   
+        </div> 
+</footer>
+</body>
+<footer id="pie_2" style="display: none;" >
+	<div id="pie_contenedor">
+                    <div id="benq_sitios_latam">
+                            <a href="javascript:next();">Latam.BenQ.com</a> /<a href="javascript:prev();"> BenQ.com.mx</a> / <a href="#" target="_blank">BenQ.com.br</a>
+                    </div>
+                    <div id="redes">
+                            <div id="twitter">
+                                <img src="imgs/twitter.png" alt="Twitter logo">	
+                            </div>
+                            <div id="facebok">
+                                <img src="imgs/facebook.png" alt="Facebook logo">	
+                            </div>
+                    </div>
+                    <div id="siguenos">
+                            <p>Síguenos en / Siga nos no:</p>
+                            <a href="#">BenQ Latinamérica</a> / <a href="#">BenQ_Mexico</a> / <a href="#">BenQ_Brasil</a>
+                    </div>
+                    <div id="copyright">
+                            <p>Copyright © 2012 BenQ </p>
+                    </div>  
+                    <div class="clear"></div>   
+        </div> 
+</footer>
+<footer id="pie_3" style="display: none;" >
+		<div id="pie_contenedor">
+                    <div id="benq_sitios_latam">
+                            <a href="javascript:next();">Latam.BenQ.com</a> /<a href="javascript:prev();"> BenQ.com.mx</a> / <a href="#" target="_blank">BenQ.com.br</a>
+                    </div>
+                    <div id="redes">
+                            <div id="twitter">
+                                <img src="imgs/twitter.png" alt="Twitter logo">	
+                            </div>
+                            <div id="facebok">
+                                <img src="imgs/facebook.png" alt="Facebook logo">	
+                            </div>
+                    </div>
+                    <div id="siguenos">
+                            <p>Síguenos en / Siga nos no:</p>
+                            <a href="#">BenQ Latinamérica</a> / <a href="#">BenQ_Mexico</a> / <a href="#">BenQ_Brasil</a>
+                    </div>
+                    <div id="copyright">
+                            <p>Copyright © 2012 BenQ </p>
+                    </div>  
+                    <div class="clear"></div>   
+        </div>  
+</footer>
+<footer id="pie_4" style="display: none;" >
+	<div id="pie_contenedor">
+                    <div id="benq_sitios_latam">
+                            <a href="javascript:next();">Latam.BenQ.com</a> /<a href="javascript:prev();"> BenQ.com.mx</a> / <a href="#" target="_blank">BenQ.com.br</a>
+                    </div>
+                    <div id="redes">
+                            <div id="twitter">
+                                <img src="imgs/twitter.png" alt="Twitter logo">	
+                            </div>
+                            <div id="facebok">
+                                <img src="imgs/facebook.png" alt="Facebook logo">	
+                            </div>
+                    </div>
+                    <div id="siguenos">
+                            <p>Síguenos en / Siga nos no:</p>
+                            <a href="#">BenQ Latinamérica</a> / <a href="#">BenQ_Mexico</a> / <a href="#">BenQ_Brasil</a>
+                    </div>
+                    <div id="copyright">
+                            <p>Copyright © 2012 BenQ </p>
+                    </div>  
+                    <div class="clear"></div>   
+        </div>
+</footer>
+<footer id="pie_5" style="display: none;" >
+		<div id="pie_contenedor">
+                    <div id="benq_sitios_latam">
+                            <a href="javascript:next();">Latam.BenQ.com</a> /<a href="javascript:prev();"> BenQ.com.mx</a> / <a href="#" target="_blank">BenQ.com.br</a>
+                    </div>
+                    <div id="redes">
+                            <div id="twitter">
+                                <img src="imgs/twitter.png" alt="Twitter logo">	
+                            </div>
+                            <div id="facebok">
+                                <img src="imgs/facebook.png" alt="Facebook logo">	
+                            </div>
+                    </div>
+                    <div id="siguenos">
+                            <p>Síguenos en / Siga nos no:</p>
+                            <a href="#">BenQ Latinamérica</a> / <a href="#">BenQ_Mexico</a> / <a href="#">BenQ_Brasil</a>
+                    </div>
+                    <div id="copyright">
+                            <p>Copyright © 2012 BenQ </p>
+                    </div>  
+                    <div class="clear"></div>   
+        </div>
+</footer>
+<footer id="pie_6" style="display: none;" >
+		<div id="pie_contenedor">
+                    <div id="benq_sitios_latam">
+                            <a href="javascript:next();">Latam.BenQ.com</a> /<a href="javascript:prev();"> BenQ.com.mx</a> / <a href="#" target="_blank">BenQ.com.br</a>
+                    </div>
+                    <div id="redes">
+                            <div id="twitter">
+                                <img src="imgs/twitter.png" alt="Twitter logo">	
+                            </div>
+                            <div id="facebok">
+                                <img src="imgs/facebook.png" alt="Facebook logo">	
+                            </div>
+                    </div>
+                    <div id="siguenos">
+                            <p>Síguenos en / Siga nos no:</p>
+                            <a href="#">BenQ Latinamérica</a> / <a href="#">BenQ_Mexico</a> / <a href="#">BenQ_Brasil</a>
+                    </div>
+                    <div id="copyright">
+                            <p>Copyright © 2012 BenQ </p>
+                    </div>  
+                    <div class="clear"></div>   
+        </div>
+</footer>
+<footer id="pie_7" style="display: none;" >
+		<div id="pie_contenedor">
+                    <div id="benq_sitios_latam">
+                            <a href="javascript:next();">Latam.BenQ.com</a> /<a href="javascript:prev();"> BenQ.com.mx</a> / <a href="#" target="_blank">BenQ.com.br</a>
+                    </div>
+                    <div id="redes">
+                            <div id="twitter">
+                                <img src="imgs/twitter.png" alt="Twitter logo">	
+                            </div>
+                            <div id="facebok">
+                                <img src="imgs/facebook.png" alt="Facebook logo">	
+                            </div>
+                    </div>
+                    <div id="siguenos">
+                            <p>Síguenos en / Siga nos no:</p>
+                            <a href="#">BenQ Latinamérica</a> / <a href="#">BenQ_Mexico</a> / <a href="#">BenQ_Brasil</a>
+                    </div>
+                    <div id="copyright">
+                            <p>Copyright © 2012 BenQ </p>
+                    </div>  
+                    <div class="clear"></div>   
+        </div> 
+</footer>
+<footer id="pie_8" style="display: none;" >
+		<div id="pie_contenedor">
+                    <div id="benq_sitios_latam">
+                            <a href="javascript:next();">Latam.BenQ.com</a> /<a href="javascript:prev();"> BenQ.com.mx</a> / <a href="#" target="_blank">BenQ.com.br</a>
+                    </div>
+                    <div id="redes">
+                            <div id="twitter">
+                                <img src="imgs/twitter.png" alt="Twitter logo">	
+                            </div>
+                            <div id="facebok">
+                                <img src="imgs/facebook.png" alt="Facebook logo">	
+                            </div>
+                    </div>
+                    <div id="siguenos">
+                            <p>Síguenos en / Siga nos no:</p>
+                            <a href="#">BenQ Latinamérica</a> / <a href="#">BenQ_Mexico</a> / <a href="#">BenQ_Brasil</a>
+                    </div>
+                    <div id="copyright">
+                            <p>Copyright © 2012 BenQ </p>
+                    </div>  
+                    <div class="clear"></div>   
+        </div> 
+</footer>
+<footer id="pie_9" style="display: none;" >
+		<div id="pie_contenedor">
+                    <div id="benq_sitios_latam">
+                            <a href="javascript:next();">Latam.BenQ.com</a> /<a href="javascript:prev();"> BenQ.com.mx</a> / <a href="#" target="_blank">BenQ.com.br</a>
+                    </div>
+                    <div id="redes">
+                            <div id="twitter">
+                                <img src="imgs/twitter.png" alt="Twitter logo">	
+                            </div>
+                            <div id="facebok">
+                                <img src="imgs/facebook.png" alt="Facebook logo">	
+                            </div>
+                    </div>
+                    <div id="siguenos">
+                            <p>Síguenos en / Siga nos no:</p>
+                            <a href="#">BenQ Latinamérica</a> / <a href="#">BenQ_Mexico</a> / <a href="#">BenQ_Brasil</a>
+                    </div>
+                    <div id="copyright">
+                            <p>Copyright © 2012 BenQ </p>
+                    </div>  
+                    <div class="clear"></div>   
+        </div> 
+</footer>
+</body>
+</html>
