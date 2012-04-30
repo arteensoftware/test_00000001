@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.x-toolbar-dark {
+  background-color: #FFF;
+  background-image: none;
+  border:none;
+}
+.x-toolbar-dark.x-docked-bottom {
+	  border-top-color:  black;
+	border-top:none;
+}
+.x-panel{
+	width:100%;
+}
+.x-container{
+	background:none !important;
+}
